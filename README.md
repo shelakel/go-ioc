@@ -24,6 +24,8 @@ Installation
 ------------
 
 ### Current Version: 0.1.0 Beta
+### Go Version: 1.2+
+
 ```sh
 go get -u github.com/shelakel/go-ioc
 ```
