@@ -1,4 +1,4 @@
-# Go Package - ioc (alpha) [![Build Status](https://travis-ci.org/shelakel/go-ioc.png?branch=master)](https://travis-ci.org/shelakel/go-ioc) [![GoDoc](http://godoc.org/github.com/shelakel/go-ioc?status.png)](http://godoc.org/github.com/shelakel/go-ioc)
+# Go Package - ioc (beta) [![Build Status](https://travis-ci.org/shelakel/go-ioc.png?branch=master)](https://travis-ci.org/shelakel/go-ioc) [![GoDoc](http://godoc.org/github.com/shelakel/go-ioc?status.png)](http://godoc.org/github.com/shelakel/go-ioc)
 
 Package ioc provides inversion of control containers, reflection helpers (GetNamedSetter, GetNamedInstance, GetNamedType) and Factory helpers (Resolve/ResolveNamed).
 
