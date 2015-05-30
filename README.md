@@ -1,4 +1,4 @@
-# Go Package - ioc (beta) [![Build Status](https://travis-ci.org/shelakel/go-ioc.png?branch=master)](https://travis-ci.org/shelakel/go-ioc) [![GoDoc](http://godoc.org/github.com/shelakel/go-ioc?status.png)](http://godoc.org/github.com/shelakel/go-ioc)
+# Go Package - ioc  [![GoDoc](http://godoc.org/github.com/shelakel/go-ioc?status.png)](http://godoc.org/github.com/shelakel/go-ioc)
 
 Package ioc provides inversion of control containers, reflection helpers (GetNamedSetter, GetNamedInstance, GetNamedType) and Factory helpers (Resolve/ResolveNamed).
 
@@ -18,12 +18,12 @@ Package ioc is designed with the following goals in mind:
 
 _Package ioc is not dependent on the [net/http package](http://golang.org/pkg/net/http)._
 
-Please note that package ioc is in beta, but of production quality.
+Please note that package ioc is of production quality, but hasn't been thoroughly tested in production.
 
 Installation
 ------------
 
-### Current Version: 0.1.0 Beta
+### Current Version: 0.1.0
 ### Go Version: 1.2+
 
 ```sh
@@ -89,7 +89,9 @@ Benchmark functions are written using the [testing](http://golang.org/pkg/testin
 TODO
 ----
 
- - Improve performance.
+* This package isn't actively being worked on *
+
+ - Improve performance - for now it is what it is due to the inherent limitations/cost of reflection in Go. This package is well suited for constructing singletons, not so much for use in a 'per request' type scenario.
  - Populate function that uses a Factory to populate struct instances via dependency injection on tagged fields.
    The current thinking is to support dynamic population e.g. standard ioc="constant", dynamic ioc_route="id" via ResolveNamed((*Factory),"route") ->
    (dynamic Factory).ResolveNamed((type), "id").
