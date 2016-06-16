@@ -34,7 +34,7 @@ func (c *Container) Scope() *Container {
 	return &Container{
 		root:      root,
 		Values:    NewValuesScope(c.Values),
-		r:         c.r,
+		r:         c.r.clone(),
 		instances: NewValues(),
 	}
 }

@@ -86,6 +86,22 @@ func (r *registry) getAll() []*Registration {
 	return registrations
 }
 
+// Clone the registry.
+func (r *registry) clone() *registry {
+	r.m.RLock()
+	clone := newRegistry()
+	registrations := clone.registrations
+	for k, named := range r.registrations {
+		namedClone := make(map[string]*Registration, len(named))
+		for name, registration := range named {
+			namedClone[name] = registration
+		}
+		registrations[k] = namedClone
+	}
+	r.m.RUnlock()
+	return clone
+}
+
 //-----------------------------------------------
 // registration
 //-----------------------------------------------
