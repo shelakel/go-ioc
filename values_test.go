@@ -1,8 +1,6 @@
-package ioc_test
+package ioc
 
 import (
-	. "github.com/shelakel/ioc"
-
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
