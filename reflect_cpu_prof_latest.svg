@@ -543,7 +543,7 @@ function handleMouseUp(evt) {
 <!-- N5 -->
 <g id="node6" class="node"><title>N5</title>
 <polygon fill="none" stroke="black" points="2233,-1112.5 1878,-1112.5 1878,-1041.5 2233,-1041.5 2233,-1112.5"/>
-<text text-anchor="middle" x="2055.5" y="-1092.98" font-family="Times New Roman,serif" font-size="19.40">github.com/shelakel/ioc.GetNamedInstance</text>
+<text text-anchor="middle" x="2055.5" y="-1092.98" font-family="Times New Roman,serif" font-size="19.40">github.com/shelakel/go-ioc.GetNamedInstance</text>
 <text text-anchor="end" x="2225" y="-1071.98" font-family="Times New Roman,serif" font-size="19.40">200 (5.2%)</text>
 <text text-anchor="end" x="2225" y="-1050.98" font-family="Times New Roman,serif" font-size="19.40">of 1182 (31.0%)</text>
 </g>
@@ -649,7 +649,7 @@ function handleMouseUp(evt) {
 <!-- N9 -->
 <g id="node10" class="node"><title>N9</title>
 <polygon fill="none" stroke="black" points="4157,-1120 3766,-1120 3766,-1034 4157,-1034 4157,-1120"/>
-<text text-anchor="middle" x="3961.5" y="-1097.2" font-family="Times New Roman,serif" font-size="23.50">github.com/shelakel/ioc.GetNamedType</text>
+<text text-anchor="middle" x="3961.5" y="-1097.2" font-family="Times New Roman,serif" font-size="23.50">github.com/shelakel/go-ioc.GetNamedType</text>
 <text text-anchor="end" x="4149" y="-1071.2" font-family="Times New Roman,serif" font-size="23.50">366 (9.6%)</text>
 <text text-anchor="end" x="4149" y="-1045.2" font-family="Times New Roman,serif" font-size="23.50">of 1070 (28.0%)</text>
 </g>
@@ -682,7 +682,7 @@ function handleMouseUp(evt) {
 <!-- N11 -->
 <g id="node12" class="node"><title>N11</title>
 <polygon fill="none" stroke="black" points="1618.5,-1111 1306.5,-1111 1306.5,-1043 1618.5,-1043 1618.5,-1111"/>
-<text text-anchor="middle" x="1462.5" y="-1092.6" font-family="Times New Roman,serif" font-size="18.00">github.com/shelakel/ioc.GetNamedSetter</text>
+<text text-anchor="middle" x="1462.5" y="-1092.6" font-family="Times New Roman,serif" font-size="18.00">github.com/shelakel/go-ioc.GetNamedSetter</text>
 <text text-anchor="end" x="1610.5" y="-1072.6" font-family="Times New Roman,serif" font-size="18.00">154 (4.0%)</text>
 <text text-anchor="end" x="1610.5" y="-1052.6" font-family="Times New Roman,serif" font-size="18.00">of 1031 (27.0%)</text>
 </g>
