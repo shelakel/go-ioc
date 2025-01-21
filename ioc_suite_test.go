@@ -1,4 +1,4 @@
-package ioc_test
+package ioc
 
 import (
 	. "github.com/onsi/ginkgo"

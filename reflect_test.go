@@ -1,4 +1,4 @@
-package ioc_test
+package ioc
 
 import (
 	"reflect"
@@ -6,7 +6,6 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/shelakel/ioc"
 )
 
 var _ = Describe("GetNamedSetter", func() {
